@@ -1,10 +1,9 @@
 import React, { Component }  from 'react';
+import Register from './pages/Register';
 
 function App() {
   return (
-    <div>
-      Hello world!
-    </div>
+    <Register/>
   );
 }
 
