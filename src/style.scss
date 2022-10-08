@@ -1,0 +1,74 @@
+.formContainer {
+    background-color: lightsalmon;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .formWrapper{
+        background-color: white;
+        padding: 20px 60px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+
+        .logo {
+            color: salmon;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .title {
+            color: salmon;
+            font-size: 12px;
+        }
+
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            
+            input{
+                padding: 15px;
+                border: none;
+                width: 250px;
+                border-bottom: 1px solid lightsalmon;
+            &::placeholder{
+                color: rgb(175, 175, 175);
+            }
+            }
+
+            button{
+                background-color: coral;
+                color: white;
+                padding: 10px;
+                font-weight: bold;
+                border: none;
+                cursor: pointer;
+            }
+
+            label{
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                color: lightsalmon;
+                gap: 10px;
+                cursor: pointer;
+                
+                img{
+                    width: 32px;
+                }
+            }
+        }
+
+        p{
+            color: salmon;
+            font-size: 12px;
+            margin-top: 10px;
+
+        }
+    }
+
+}
